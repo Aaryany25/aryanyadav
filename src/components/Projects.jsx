@@ -3,15 +3,17 @@ import bg from "../assets/bg.jpg"
 
 function Projects() {
   return (
-    <div className='w-full sm:w-1/2 lg:w-1/2 rounded-xl p-5 border border-white '>
-      <img src={bg} className='rounded-xl border-2 object-cover shadow-lg w-full h-48'/>
-      <div className='flex justify-between mt-2'>
-        <h1>Title</h1>
-        <p className='bg-green-400 py-1 text-sm px-5 rounded-xl'>Status</p>
+    <div className=' mb-2 rounded-xl p-5 border border-white/10 bg-slate-750 shadow-sm'>
+      <img src={bg} className='rounded-xl border border-white/10 object-cover shadow-lg w-full h-56'/>
+      <div className='flex flex-col gap-3 mt-4'>
+        <div className='flex items-center justify-between'>
+          <h1 className='text-lg font-semibold'>Title</h1>
+          <p className='bg-emerald-500 text-white py-1 text-sm px-4 rounded-full'>Status</p>
+        </div>
+        <p className='text-sm leading-6 text-slate-300'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, odit.
+        </p>
       </div>
-      <p className='mt-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, odit.
-      </p>
     </div>
   )
 }

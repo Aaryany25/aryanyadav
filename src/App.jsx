@@ -1,6 +1,7 @@
 import bg from "./assets/bg.jpg"
 import AllProjects from "./components/AllProjects";
 import Exprience from "./components/Exprience";
+import Footer from "./components/Footer";
 import GithubMap from "./components/GithubCalender"
 import Hero from "./components/Hero"
 import "@fontsource/geist"; // Defaults to weight 400
@@ -26,6 +27,7 @@ function App() {
    <hr></hr>
    <Exprience/>
    <AllProjects/>
+   <Footer/>
 </main>
 
    </div>
