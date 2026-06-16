@@ -15,11 +15,11 @@ function Work() {
             <p className='text-xs text-gray-500'>FullStack Developer</p>
         </div>
         </div>
-       <div className='text-gray-400 text-sm'>
+       <div className='text-gray-400 text-md flex flex-col'>
         Nov 2025
       <button
             onClick={() => setShowMore(!showMore)}
-            className="text-sm text-blue-400 hover:text-blue-300"
+            className="text-sm text-gray-400 mt-2"
           >
             {showMore ? "View Less" : "View More"}
           </button>

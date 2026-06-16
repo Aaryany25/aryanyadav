@@ -1,4 +1,5 @@
 import bg from "./assets/bg.jpg"
+import AllProjects from "./components/AllProjects";
 import Exprience from "./components/Exprience";
 import GithubMap from "./components/GithubCalender"
 import Hero from "./components/Hero"
@@ -24,6 +25,7 @@ function App() {
   </div>
    <hr></hr>
    <Exprience/>
+   <AllProjects/>
 </main>
 
    </div>
