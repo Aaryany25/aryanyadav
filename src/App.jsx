@@ -27,9 +27,9 @@ function App() {
    <hr></hr>
    <Exprience/>
    <AllProjects/>
-   <Footer/>
 </main>
-
+   <hr/>
+   <Footer/>
    </div>
   )
 }
