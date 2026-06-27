@@ -10,7 +10,7 @@ function App() {
 
   return (
    <div className="bg-black min-h-screen text-white ">
-<main className="max-w-xl mx-auto py-10 relative">
+<main className="max-w-3xl mx-auto py-10 relative">
   <div className="relative">
     <img src={bg} alt="Background" className="w-full h-54 object-cover rounded "/>
      <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black to-transparent rounded-b" />
@@ -18,7 +18,7 @@ function App() {
   </div>
 
   <div className="mt-16 max-w-prose text-gray-300 leading-relaxed mb-5">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis nostrum? Dignissimos, enim placeat quae libero fuga optio. Deleniti, nesciunt.
+  Crafting clean, modern interfaces with an eye for simplicity and detail.
   </div>
   <hr></hr>
   <div className="mt-5 mb-5">

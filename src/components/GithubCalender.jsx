@@ -11,7 +11,7 @@ function GithubMap() {
       <GitHubCalendar
         username="Aaryany25"
         year="2026"
-        blockSize={8.52}
+        blockSize={12.1}
         blockMargin={2.4}
         fontSize={13}
         colorScheme="dark"

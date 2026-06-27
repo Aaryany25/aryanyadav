@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../assets/hero.jpeg"
+import spine from "../assets/spine logo.png"
 import { useState } from "react";
 
 function Work() {
@@ -9,7 +9,7 @@ function Work() {
     <>
     <div className='flex justify-between '>
         <div className='flex gap-2'>
- <img src={hero} className='w-12 h-12 rounded-xl border-2 border-white object-cover shadow-lg'/>
+ <img src={spine} className='w-12 h-12 rounded-xl border-1 border-white object-cover shadow-lg'/>
         <div>
             <h1>Spine India Technology</h1>
             <p className='text-xs text-gray-500'>FullStack Developer</p>
