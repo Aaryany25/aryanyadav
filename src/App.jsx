@@ -18,7 +18,7 @@ function App() {
   </div>
 
   <div className="mt-16 max-w-prose text-gray-300 leading-relaxed mb-5">
-  Crafting clean, modern interfaces with an eye for simplicity and detail.
+  {/* Crafting clean, modern interfaces with an eye for simplicity and detail. */}
   </div>
   <hr></hr>
   <div className="mt-5 mb-5">

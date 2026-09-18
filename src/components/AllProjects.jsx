@@ -1,18 +1,18 @@
 import React from 'react'
 import Projects from './Projects'
 const projects =[{
-  title:"CodeBox",
-  description:"In Browser IDE For Frontend Development",
+  title:"Gallon Go",
+  description:"Water Gallon Delivery And Management System ",
   image:"",
   link:"",
-  techStack:["React","Tailwind"]
+  techStack:["React","Tailwind","Node Js","Mongo DB","ExpressJs"]
 },
 {
-  title:"PayTm",
-  description:"Payment App ",
+  title:"Portfolio Website",
+  description:"Portfolio website for showcasing projects and skills ",
   image:"",
   link:"",
-  techStack:["React","Tailwind"]
+  techStack:["React","Tailwind","Git","NextJs ","NextAuth"]
 }
 ]
 function AllProjects() {
