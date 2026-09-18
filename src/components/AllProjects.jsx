@@ -13,6 +13,13 @@ const projects =[{
   image:"",
   link:"",
   techStack:["React","Tailwind","Git","NextJs ","NextAuth"]
+},
+{
+  title:"MagicDraw",
+  description:"Multi User Collabrative Tool",
+  image:"",
+  link:"",
+  techStack:["React","Tailwind","WebRTC","Socket.io","NextJs ","NextAuth"]
 }
 ]
 function AllProjects() {

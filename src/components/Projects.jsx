@@ -14,9 +14,11 @@ function Projects({title,description,tech}) {
         <p className='text-sm leading-6 text-slate-300'>
          {description}
         </p>
+        <div className='flex gap-2 flex-wrap'>
         {tech.map(language=>{
-          return <span className='border-1 w-fit px-2 rounded-2xl '>{language}</span>
+          return <span className='border-1 w-fit px-2 py-1 rounded-2xl flex  '>{language}</span>
         })}
+        </div>
       </div>
     </div>
   )
