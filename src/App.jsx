@@ -1,4 +1,5 @@
 import bg from "./assets/bg.jpg"
+import About from "./components/About";
 import AllProjects from "./components/AllProjects";
 import Exprience from "./components/Exprience";
 import Footer from "./components/Footer";
@@ -9,7 +10,7 @@ import "@fontsource/geist"; // Defaults to weight 400
 function App() {
 
   return (
-   <div className="bg-black min-h-screen text-white ">
+   <div className="bg-black min-h-screen text-white px-4">
 <main className="max-w-3xl mx-auto py-10 relative">
   <div className="relative">
     <img src={bg} alt="Background" className="w-full h-54 object-cover rounded "/>
@@ -17,18 +18,18 @@ function App() {
     <Hero/>
   </div>
 
-  <div className="mt-16 max-w-prose text-gray-300 leading-relaxed mb-5">
-  {/* Crafting clean, modern interfaces with an eye for simplicity and detail. */}
+  <div className="mt-16 mb-6">
+    <About />
   </div>
-  <hr></hr>
+  <hr className="border-neutral-800" />
   <div className="mt-5 mb-5">
     <GithubMap/>
   </div>
-   <hr></hr>
+   <hr className="border-neutral-800" />
    <Exprience/>
    <AllProjects/>
 </main>
-   <hr/>
+   <hr className="border-neutral-800" />
    <Footer/>
    </div>
   )

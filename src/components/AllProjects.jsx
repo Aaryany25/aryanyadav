@@ -26,7 +26,7 @@ function AllProjects() {
   return (
     <div>
         <h2 className="text-sm font-semibold text-white mb-4">
-        Work
+        Works
       </h2>
       <div className='grid grid-flow-col grid-rows-2 gap-4  '>
 {projects.map(items=>{
