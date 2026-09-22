@@ -32,6 +32,7 @@ function Work() {
           <p>• Leading product direction, engineering, and open-source contributions.</p>
           <p>• Shipping features across web, backend, and AI integrations end-to-end.</p>
           <p>• Built automation tools to automate internal systems and workflows...</p>
+          <p>• Managed 15+ clients          </p>
         </div>
       )}
     </>
